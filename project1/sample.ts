@@ -9,3 +9,5 @@ class Greeter {
 }
 
 let greeter = new Greeter("World");
+
+console.log("Hello");
