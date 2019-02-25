@@ -19,5 +19,8 @@
   "homepage": "https://github.com/mohankumart/typescript#readme",
   "devDependencies": {
     "lite-server": "^2.4.0"
+  },
+  "dependencies": {
+    "systemjs": "^0.21.5"
   }
 }
