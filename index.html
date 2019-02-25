@@ -3,9 +3,15 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Insert title here</title>
+		<script type="text/javascript" src="./node_modules/systemjs/dist/system.js"></script>	
 	</head>
 	<body>
-	
-		<script src="./modules/app.js"></script>	
+		<script>
+			SystemJS.config({
+				baseURL: '/modules',
+				defaultExtension: true
+			});
+			SystemJS.import('app.js');
+		</script>	
 	</body>
 </html>
