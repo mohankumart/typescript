@@ -1,3 +1,3 @@
-function calculateRectangle(width: number, height: number){
+export function calculateRectangle(width: number, height: number){
 	return width * height;
 }
